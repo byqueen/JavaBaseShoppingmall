@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+/* #아이디명 : 단일 요소 */
+/* .클래스명 : 여러 요소 */
+
+
+header, body, footer {
+	  font-family: "Noto Sans KR", sans-serif;
+} 
+
+header {
+	background-color: #26354c;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+body {
+	color: #26354c;
+}
+
+footer{
+	background-color: #0c1119;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 13px;
+	color: white;
+}
+
+section {
+	line-height: 1.2em;
+	text-align: center;
+}
+
+nav {
+	background-color: #0c1119;
+	height: 35px;
+	line-height: 35px;
+	vertical-align: middle;
+	font-size: 15px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.LinkW {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #0c1119;
+}
+
+div {
+	text-align: center;
+	color: #324766;
+}
+
+table, th, td {
+     border: 1px solid rgb(209, 209, 209);
+     border-collapse: collapse;
+     font-size: 13px;
+}
+
+table {
+     margin: auto;
+}
+
+th {
+	height: 25px;
+	background-color: #7fb2ff;
+	color: white;
+}
+
+td {
+	word-wrap: break-word;
+	padding : 3px;
+	text-align: left;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    left: 5px; /* 체크박스를 텍스트 오른쪽으로 이동 */
+    margin-top: 5px;
+    margin-right: 5px; /* 체크박스와 텍스트 사이의 여백 */
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+   background-color: #7fb2ff;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   padding: 4px 10px;
+   text-decoration: none;
+   cursor: pointer;
+   font-size: 13px;
+   font-weight: bold;
+}
+
+input[type=text], input[type=number], input[type=password] {
+   box-sizing: border-box;
+   border: 1px solid #ccc;
+   line-height: 150%;
+   font-size: 12px;
+   width: 98%;
+   margin: 2px 2px 2px 2px;
+}
+
+textarea {
+   width: 98%;
+   height: 100px;
+   padding: 10px;
+   margin: 3px 3px 0px 2px;
+   box-sizing: border-box;
+   border: 1px solid #ccc;
+   background-color: #f8f8f8;
+   font-size: 13px;
+   resize: none;
+   
+}
+
+img {
+   display: block;
+   margin: auto;
+}
